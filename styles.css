@@ -139,13 +139,19 @@ main {
     cursor: pointer;
 }
 
-.text h1:hover {
+.text a {
+    color: var(--gray-950);
+    text-decoration: none;
+}
+
+.text a:hover {
     color: var(--main-bg-color);
 }
 
-.text h1:focus {
-    color: var(--gray-950);
+.text a:focus {
+    color: var(--gray-500);
 }
+
 
 .text p {    
     margin-top: -6px;
@@ -168,8 +174,17 @@ main {
     font-weight: var(--ftwg-800);    
 }
 
-.author-name:hover {
+.author-name a {
+    color: var(--gray-950);
+    text-decoration: none;
+}
+
+.author-name a:hover {
     color: var(--main-bg-color);
+}
+
+.author-name a:focus {
+    color: var(--gray-500);
 }
 
 
@@ -190,6 +205,13 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
+.attribution a:hover {
+    color: var(--gray-950);
+}
+
+.attribution a:focus {
+    color: var(--gray-500);
+}
 
 
 /* QUERIES */
