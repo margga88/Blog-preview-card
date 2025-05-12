@@ -135,8 +135,16 @@ main {
     font-size: 1.3rem;    
 }
 
+.text h1 {
+    cursor: pointer;
+}
+
 .text h1:hover {
     color: var(--main-bg-color);
+}
+
+.text h1:focus {
+    color: var(--gray-950);
 }
 
 .text p {    
